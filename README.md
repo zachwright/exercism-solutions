@@ -4,4 +4,4 @@ This repo contains my solutions to the [https://exercism.io](https://exercism.io
 
 ## Tracks:
 * **Ruby**
-  * 4/95 Solutions Completed
+  * 5/95 Solutions Completed
