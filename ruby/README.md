@@ -6,3 +6,4 @@
 * Two-Fer
 * Resistor Color Duo
 * Acronym
+* High Scores
