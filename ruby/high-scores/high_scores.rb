@@ -3,22 +3,22 @@
 # This class contains an array of scores and has methods
 # to return information about those scores.
 class HighScores
+  attr_reader :scores
+
   def initialize(scores)
     @scores = scores
   end
 
-  attr_reader :scores
-
   def latest
-    @scores.last
+    scores.last
   end
 
   def personal_best
-    @scores.max
+    scores.max
   end
 
   def personal_top_three
-    @scores.sort.pop(3).reverse
+    scores.max(3)
   end
 
   def latest_is_personal_best?
