@@ -7,3 +7,4 @@
 * Resistor Color Duo
 * Acronym
 * High Scores
+* Armstrong Numbers
