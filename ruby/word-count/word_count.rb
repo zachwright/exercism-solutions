@@ -10,11 +10,14 @@ class Phrase
     end
 
     def word_count
-      arr = @string.split
+      arr = @string.downcase.gsub(/[,\n!&@$%^:.]/, ' ').gsub(/( '|' )/, ' ').split
       hash = {}
       arr.each do |w| 
-        hash[w] = hash[w] + 1 if hash.key?(w)
-        hash[w] = 1
+        if hash.key?(w)
+          hash[w] = hash[w] + 1
+        else
+          hash[w] = 1
+        end
       end
       hash
     end
