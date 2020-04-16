@@ -1,9 +1,5 @@
 # frozen_string_literal: true
 
-class WordCount
-
-end
-
 class Phrase
     def initialize(string)
       @string = string
