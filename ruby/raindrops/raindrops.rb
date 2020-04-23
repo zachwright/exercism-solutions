@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-
 # Refactored with help from Cliff Braton cliff.braton@gmail.com
 # Lessons: Learn to recognize Enumerable method use cases like:
 # `select` and `reduce`.
