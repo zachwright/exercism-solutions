@@ -13,10 +13,8 @@ class Raindrops
   end
 
   def self.factors(number)
-    [].tap do |arr|
-      (1..number).each do |i|
-        arr.push(i) if number % i == 0
-      end
+    (1..number).select do |i|
+      number % i == 0
     end
   end
 end
